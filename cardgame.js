@@ -1,5 +1,5 @@
-const MAX_PROPERTIES = 5;
-const MAX_CARDS = 140;
+const MAX_PROPERTIES = 6;
+const MAX_CARDS = 150;
 const API_URL = `https://query.wikidata.org/bigdata/namespace/wdq/sparql?format=json&query=`;
 
 let statusField = undefined;
@@ -61,7 +61,7 @@ String.prototype.capitalize = function() {
 
 function ordinal(i) {
     var j = i % 10,
-        k = i % 100;
+        k = i % 150;
     if (j == 1 && k != 11) {
         return i + "st";
     }
