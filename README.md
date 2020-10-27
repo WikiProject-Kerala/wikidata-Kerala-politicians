@@ -1,7 +1,6 @@
-# Wikidata Card Game Generator
+# Wikidata Kerala Politicians
 
-Generate your own card game, suitable for playing [Top Trumps](https://en.wikipedia.org/wiki/Top_Trumps), using [Wikidata](https://www.wikidata.org)!
-
+Forked project from:
 Made for the [Wikidata-Workshop 2019](https://de.wikipedia.org/wiki/Wikipedia:Wikidata-Workshop-Ulm-2019) in Ulm by [bleeptrack](https://www.bleeptrack.de) and [blinry](https://morr.cc). Feel free to suggest ideas or report bugs!
 
 ## License
