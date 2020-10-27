@@ -382,7 +382,7 @@ window.onload = function() {
     var searchParams = new URLSearchParams(window.location.search)
     lang = searchParams.get("lang") || "en";
     var match = window.location.search.match(/Q\d+/g);
-    type = match && match[0] || "Q11344";
+    type = match && match[0] || "Q99709336";
 
     statusField = document.getElementById("status");
 
