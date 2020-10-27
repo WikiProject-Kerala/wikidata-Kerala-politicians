@@ -233,7 +233,7 @@ function runDataQuery(restriction, lang) {
         ?item wikibase:statements ?statements.
       }
       ORDER BY DESC(?statements)
-      LIMIT 100
+      LIMIT 150
     } AS %items
     WHERE {
       INCLUDE %items.
