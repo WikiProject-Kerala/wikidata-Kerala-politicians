@@ -5,7 +5,7 @@ const API_URL = `https://query.wikidata.org/bigdata/namespace/wdq/sparql?format=
 let statusField = undefined;
 let typeLabel = undefined;
 let type = undefined;
-let lang = undefined;
+let lang = ml;
 let imageProgress = 0;
 
 String.prototype.trunc = String.prototype.trunc ||
