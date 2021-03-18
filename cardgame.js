@@ -1,11 +1,11 @@
-const MAX_PROPERTIES = 5;
+const MAX_PROPERTIES = 6;
 const MAX_CARDS = 150;
 const API_URL = `https://query.wikidata.org/bigdata/namespace/wdq/sparql?format=json&query=`;
 
 let statusField = undefined;
 let typeLabel = undefined;
 let type = undefined;
-let lang = ml;
+let lang = undefined;
 let imageProgress = 0;
 
 String.prototype.trunc = String.prototype.trunc ||
